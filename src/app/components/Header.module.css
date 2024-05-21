@@ -1,0 +1,48 @@
+.header {
+    font-family: Courier;
+    margin: 15px auto;
+    width: 100%;
+    height: min-content;
+    position: relative;
+    display: block;
+}
+
+.header_title {
+    font-size: 50pt;
+    font-weight: normal;
+    font-family: Courier;
+    margin: 0 auto;
+    width: fit-content;
+    height: min-content;
+    position: relative;
+    display: block;
+}
+
+.header_nav {
+    margin: 0 auto;
+    width: fit-content;
+    height: min-content;
+    position: relative;
+    display: block;
+    top:20px
+}
+
+.header_nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_nav > ul > li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header_nav > ul > li > * {
+    color: black;
+}
+
+.header_nav > ul > li > * :hover{
+    color: black;
+    text-shadow: 2px 2px 2px black;
+}
